@@ -1,0 +1,28 @@
+body {
+  background-image:url(../img/background.jpg);
+  margin: 0;
+  padding:0;
+  overflow-x: hidden;
+}
+#my-slider {
+  width: 70%;
+  max-width: 90vh;
+  position: fixed;
+  top: calc(50% + 35px);
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.bannieretop {
+  height: 85px;
+  background-color: #2F2E2E;
+  position: absolute;
+  top : 0;
+  width: 101.5%;
+}
+
+#logo {
+  text-align: center;
+  height: 80px;
+  margin-top: 1px;
+}

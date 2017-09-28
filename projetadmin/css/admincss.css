@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body {
+  background-image: url('../img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@font-face {
+  font-family: 'Exo_2.0';
+  src: url('../fonts/Exo2.0-SemiBoldItalic.otf');
+}
+
+.background img {
+  height: 780px;
+  width: 100%;
+}
+.bannieretop {
+  height: 85px;
+  background-color: #2F2E2E;
+  padding-bottom: 8%;
+}
+
+#logo {
+  text-align: center;
+  height: 85px;
+margin-top: 2px;
+}
+
+
+
+
+/*#wrapper {
+  margin: 20px;
+
+  border: 1px dotted black;
+  overflow: hidden;
+  width: 450px;
+  width: 380px;
+  width: 690px;
+}*/
+
+.element {
+  border: 1px solid #61c419;
+  width: 100px;
+  height: 150px;
+  position: relative;
+  background: -webkit-linear-gradient(top, #b4e391 0%, #61c419 50%, #b4e391 100%);
+  background: #72BD1B;
+
+  float: left;
+  margin : 5px;
+}
+
+.circle {
+  border: 1px solid #444;
+  position: absolute;
+  top: 55px;
+  left: 30px;
+  width: 40px;
+  height:40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  vertical-align: center;
+  background-color: gray;
+  color: white;
+  font-size: 25px;
+  box-shadow: 1px 1px 7px rgba(50, 50, 50, 0.75);
+}

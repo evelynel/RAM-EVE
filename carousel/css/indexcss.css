@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('../img/background.jpg');
+}
+
+@font-face {
+  font-family: 'Exo_2.0';
+  src: url('../fonts/Exo2.0-SemiBoldItalic.otf');
+}
+
+.background img {
+  height: 780px;
+  width: 100%;
+}
+.bannieretop {
+  height: 85px;
+  background-color: #2F2E2E;
+}
+
+#logo {
+  text-align: center;
+  height: 80px;
+}
+
+#photo {
+  height: 200px;
+  width: 200px;
+  border-radius: 3px;
+  color:#72BD1B;
+}
+#tarifs {
+  text-align: center;
+  color: #72BD1B;
+  font-family: 'Exo_2.0';
+}
+
+.bannierefooter {
+  height: 85px;
+  background-color: #2F2E2E;
+}

@@ -1,0 +1,9 @@
+<Directory "/home/popschool/www/projet/projetadmin">
+  AuthType Basic
+  AuthName "Authentication Required"
+  AuthUserFile "/home/popschool/www/projet/projetadmin/.htpasswd"
+  Require valid-user
+
+  Order allow,deny
+  Allow from all
+</Directory>

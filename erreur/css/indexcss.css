@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body {
+  background-image: url('../img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: fixed;
+}
+
+@font-face {
+  font-family: 'Exo_2.0';
+  src: url('../fonts/Exo2.0-SemiBoldItalic.otf');
+}
+
+.background img {
+  height: 780px;
+  width: 100%;
+}
+.bannieretop {
+  height: 85px;
+  background-color: #2F2E2E;
+}
+
+#logo {
+  text-align: center;
+  height: 80px;
+margin-top: 2px;
+}
+
+#warning {
+  padding: 30px 0px 10px 0px
+}
+
+.blackback {
+background-image: url('../img/back.png');
+margin-top: 50px;
+}
+
+#texterreur {
+color: #72BD1B;
+font-size: 18px;
+}
+
+#tarifs {
+  text-align: center;
+  color: #72BD1B;
+  font-family: 'Exo_2.0';
+}
+
+.bannierefooter {
+  height: 85px;
+  background-color: #2F2E2E;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+}
+
+#web {
+width: 50px;
+margin-top: 10px;
+}
+
+#lien a {
+  color: inherit;
+}
+
+#license {
+  color: #72BD1B;
+  font-size: 8px;
+  text-align: center;
+}
+
+#contact {
+  text-align: center;
+  color: #72BD1B;
+  font-family: 'Exo_2.0';
+}
+
+.bannierefooter {
+  max-width: 100%;
+  font-size: 2em;
+}
